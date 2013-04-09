@@ -28,12 +28,17 @@ Under Watts-Strogatz model, given an actual network $G$ with $n$ nodes and $m$ e
 L_{actual} \approx L_{random} \wedge C_{actual} \gg C_{random}
 \end{equation}
 
-![](./watts-strogatz.png)
+![](./watts-strogatz.png) 
 Figure 1. Watts-Strogatz Model.
 
-![](./p-l-c.png)
+![](./p-l-c.png) 
 Figure 2. $p$'s effections on $L$ and $C$.
 
 ###Scale-Free Model###
 
+A network is said to be scale-free if its degree distribution follows a power lawer distribution, more specifically the probability of a node being connected to $k$ neighbour nodes $P(k)$ satisfies 
+\begin{equation} 
+P(k) \sim k^{-\gamma} 
+\end{equation} 
+where $3>\gamma>2$.
 
